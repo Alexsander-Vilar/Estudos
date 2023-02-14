@@ -12,6 +12,7 @@
 - del = Deleta arquivos da pasta 
 - rmdir = Exclui pasta
 - Entre ><nome do arquivo. formato : Cria um novo arquivo 
+- mv arquivo ./destino/: Move arquivo para outra pasta 
 
 **Linux**
 
@@ -28,16 +29,26 @@
 **Processo chave SSH**
 
 - ssh-keygen -t ed25519 -C email: Gera chaves pública e privada e demonstra o local das chaves 
+
 - Insira uma senha pessoal 2 vezes 
+
 - Vá aonde estão as chaves 
+
 - De comando ls
+
 - cat chave publica
+
 - copie a chave pública e use no Github
+
 - eval $(ssh-agent -S)
+
 - Execute ls
+
 - ssh-add chave privada
+
 - Coloque a senha criada
--  
+
+  
 
 **Comandos**
 
