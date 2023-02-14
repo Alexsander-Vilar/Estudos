@@ -16,7 +16,7 @@
 
 **Linux**
 
-- **Ls =** listar
+- **Ls =** listar 
 - **cd c/ =** Base do diretório C 
 - **cd nome =** Abre a pasta
 - **cd .. =** Voltar
@@ -82,7 +82,7 @@
 
   ## Colocar repositorio para o GitHub
 
-- **git remote add origin local:** Coloca os arquivos do computador para o Github
+- **git remote add origin local url:** Coloca os arquivos do computador para o Github
 
 - **git branch -m main:**
 
