@@ -90,7 +90,7 @@
 
   ## Como atualizar arquivos no Github
   
-- **git poll origin main ou master:** Atualiza o arquivo de acordo com o Github "Importante para evitar erros"
+- **git pull origin main ou master:** Atualiza o arquivo de acordo com o Github "Importante para evitar erros"
 
 - **git push origin main ou master:** Envia os arquivos locais para o Github
 
