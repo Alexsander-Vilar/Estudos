@@ -94,8 +94,11 @@ public class controledefluxo {
             System.out.println("Outubro");
         } else if (mes == 11) {
             System.out.println("Novembro");
-        } else {
+        } else if (mes == 12) {
             System.out.println("Dezembro");
+        } else {  System.out.println("Mês indefinido");
+
+
         }
 
     }
