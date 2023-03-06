@@ -1,4 +1,4 @@
-package Poo;
+package Poo.EX1;
 
 public class RodarAplicacao {
 
