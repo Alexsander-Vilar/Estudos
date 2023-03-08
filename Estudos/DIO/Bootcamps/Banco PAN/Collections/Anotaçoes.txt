@@ -1,0 +1,21 @@
+                                  Metodos da interfaxe LIST
+Para criar a lista:List<Double> notas = new ArrayList<Double>();
+Para adicionar a lista: notas.add(Valor a ser adicionado(por ser double colocar d no final ou numero com ponto))
+Para impimir a nota: sout(notas ) ou (notas.toString)
+Para exibir a posição da nota:sout(notas.indexOf(valor da nota))
+Para adicionar uma nota na lista em posição definida: notas.add(i:posição, e:nota);
+Para substituir uma nota: notas.set(notas.indexOf(nota que substituiremos), nova nota);
+Comferir se uma nota esta na lista: sout(notas.contains(valor da nota));
+Exibir notas na ordem informada: for (Double nota : notas) sout(notas);
+Exibir a terceira nota adicionada: sout(notas.get(2));
+Exiba a menor nota: sout(Collections.min(notas));
+Exiba a maior nota: sout(Collections.max(notas));
+Para interagir com as notas(somar,dividir etc..) use o Iterator.
+Criar o Iterator: Interator<Double> interator = notas.iterator();
+Procura se um proximo valor nas notas: interator.next();
+Informa a quantidade de elementos na lista: notas.size();
+Remover nota da lista: notas.remove(5d);
+Remover nota da posição x: notas.remove(posição);
+Remover nota dentro de ima interação EX. menores de 7: if(next < 7) interator.remove():
+Apagar toda a lista: notas.clear();
+Retornar se a lista esta vazia: notas.isEmpty();
