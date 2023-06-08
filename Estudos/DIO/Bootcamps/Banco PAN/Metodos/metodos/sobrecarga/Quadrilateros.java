@@ -1,4 +1,4 @@
-package Metodos.Sobrecarga;
+package Metodos.metodos.sobrecarga;
 
 public class Quadrilateros {
     public static void area(double lado) {
