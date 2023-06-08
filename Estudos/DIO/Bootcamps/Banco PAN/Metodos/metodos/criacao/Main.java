@@ -1,4 +1,4 @@
-package Metodos.Criação;
+package Metodos.metodos.criacao;
 
 public class Main {
 
