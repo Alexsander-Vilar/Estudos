@@ -1,6 +1,4 @@
-package Metodos.Retornos;
-
-import java.util.Scanner;
+package Metodos.metodos.retornos;
 
 public class Main {
     public static void main(String[] args) {
