@@ -1,4 +1,4 @@
-package Metodos.Retornos;
+package Metodos.metodos.retornos;
 
 public class Quadrialateros {
     public static double area(double lado) {
