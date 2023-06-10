@@ -1,4 +1,4 @@
-package Poo.Heraca;
+package Poo.heraca;
 
 public class RodasAplicacao2 {
 
