@@ -1,4 +1,4 @@
-package Poo.Heraca;
+package Poo.heraca;
 
 public class ClasseFilha1 extends ClasseMae {
     @Override
