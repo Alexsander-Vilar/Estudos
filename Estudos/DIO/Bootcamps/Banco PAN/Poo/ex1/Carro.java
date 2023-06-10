@@ -1,4 +1,4 @@
-package Poo.EX1;
+package Poo.ex1;
 
 public class Carro {
 
@@ -9,11 +9,13 @@ public class Carro {
     Carro() {
 
     }
+
     Carro(String cor, String modelo, double capacidadeTanque) {
-     this.cor = cor;
-     this.modelo = modelo;
-     this.capacidadeTanque = capacidadeTanque;
+        this.cor = cor;
+        this.modelo = modelo;
+        this.capacidadeTanque = capacidadeTanque;
     }
+
     public String getCor() {
         return cor;
     }
@@ -38,8 +40,14 @@ public class Carro {
         return capacidadeTanque;
     }
 
+    @Override
+    public String toString() {
+        return "Carro " +
+                "cor: " + cor + "\'" +
+                ", modelo: " + modelo + "\'" +
+                ", capacidadeTanque: " + capacidadeTanque;
+    }
     double totalValorTanque(double valorCombustivel) {
         return capacidadeTanque * valorCombustivel;
     }
-
 }
